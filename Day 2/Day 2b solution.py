@@ -1,5 +1,5 @@
 import re
-with open('Anna\'s solutions//Day 2//Day 2 input.txt') as raw:
+with open('Day 2//Day 2 input.txt') as raw:
     raw_input = raw.read().split(',')
 
 IDs = [[int(x) for x in line] for line in [re.findall(r'\d+', line) for line in raw_input]]

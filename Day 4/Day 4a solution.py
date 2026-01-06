@@ -1,5 +1,5 @@
 import re
-with open('Anna\'s solutions//Day 4//Day 4 input.txt') as raw:
+with open('Day 4//Day 4 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 grid = [[a for a in row] for row in raw_input]

@@ -1,5 +1,5 @@
 import re
-with open('Anna\'s solutions//Day 9//Day 9 input.txt') as raw:
+with open('Day 9//Day 9 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 corner_points = [[int(x) for x in coordinates] for coordinates in [re.findall(r'\d+', coordinates) for coordinates in raw_input]]

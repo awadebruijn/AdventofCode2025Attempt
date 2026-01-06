@@ -1,5 +1,5 @@
 import re
-with open('Anna\'s solutions//Day 5//Day 5 input.txt') as raw:
+with open('Day 5//Day 5 input.txt') as raw:
     raw_input = raw.read().split("\n\n")
 
 fresh_ingredient_ID_ranges = raw_input[0].split("\n")

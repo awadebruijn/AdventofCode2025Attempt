@@ -1,5 +1,5 @@
 from collections import Counter
-with open('Anna\'s solutions//Day 7//Day 7 input.txt') as raw:
+with open('Day 7//Day 7 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 grid = [list(raw_input[i]) for i in range(len(raw_input))]

@@ -1,6 +1,6 @@
 #Pythagoras in 3D: sqrt(a^2+b^2+c^2) where a is the difference in X, b in Y and c in Z coordinates.
 import re
-with open('Anna\'s solutions//Day 8//Day 8 input.txt') as raw:
+with open('Day 8//Day 8 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 positions = [[int(x) for x in re.findall(r'\d+', line)] for line in raw_input]

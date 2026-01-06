@@ -4,7 +4,7 @@ from itertools import combinations
 def subsets_of_size(lst, k):
     return list(combinations(lst, k))
 
-with open('Anna\'s solutions//Day 10//Day 10 mock input.txt') as raw:
+with open('Day 10//Day 10 mock input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 light_diagram = [re.findall(r'[#.]', line) for line in raw_input]

@@ -1,6 +1,6 @@
 import re
 import math
-with open('Anna\'s solutions//Day 6//Day 6 input.txt') as raw:
+with open('Day 6//Day 6 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 numbers = [[int(x) for x in line] for line in [re.findall(r'\d+',line) for line in raw_input[:-1]]]

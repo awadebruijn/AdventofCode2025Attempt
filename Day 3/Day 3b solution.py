@@ -1,4 +1,4 @@
-with open('Anna\'s solutions//Day 3//Day 3 input.txt') as raw:
+with open('Day 3//Day 3 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 highest_twelves = []

@@ -1,5 +1,5 @@
 import re
-with open('Anna\'s solutions//Day 1//Day 1 input.txt') as raw:
+with open('Day 1//Day 1 input.txt') as raw:
     raw_input = raw.read().splitlines()
 
 shift = [int(x) for line in [re.findall(r'\d+', line) for line in raw_input] for x in line]
